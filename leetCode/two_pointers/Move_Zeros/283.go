@@ -32,8 +32,11 @@ func testCase2() []int {
 
 func moveZeroes(nums []int) {
 	l := len(nums)
-	new_i := 0
+	var start, end int 
 	for i := 0; i < l; i++ {
-		new_i++
+		if nums[i] == 0 {
+			count++
+		}
 	}
+
 }
