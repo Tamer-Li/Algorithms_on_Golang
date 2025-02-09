@@ -50,12 +50,12 @@ func createListNode(nums []int) *ListNode {
 	return head
 }
 
-func reverseList(head *ListNode) *ListNode {
-	current := head.Next
-	head.Next = nil
-
-	for current != nil {
-		current := 
-		head.Next = current
-	}
-}
+//func reverseList(head *ListNode) *ListNode {
+//	current := head.Next
+//	head.Next = nil
+//
+//	for current != nil {
+//		current :=
+//			head.Next == current
+//	}
+//}
